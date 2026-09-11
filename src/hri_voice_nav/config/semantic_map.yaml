@@ -1,0 +1,21 @@
+locations:
+  salon:
+    x: 6.543
+    y: 1.576
+    yaw: 0.0
+    nombre_hablado: "salón"
+  cocina:
+    x: 7.697
+    y: -0.717
+    yaw: 0.0
+    nombre_hablado: "cocina"
+  bano:
+    x: 2.622
+    y: 4.048
+    yaw: 0.0
+    nombre_hablado: "baño"
+  habitacion:
+    x: -4.276
+    y: 3.312
+    yaw: 0.0
+    nombre_hablado: "habitación"
