@@ -139,7 +139,7 @@ Una vez arrancados los cinco nodos, el sistema queda escuchando por el micrófon
 tfm_ws/
 ├── tfm_maps/
 │    ├── casa_mapa.yaml
-│    ├── casa_mapa.pgm
+│    └── casa_mapa.pgm
 └── src/
     ├── hri_interfaces/              # Mensajes y servicios personalizados (ament_cmake)
     │   ├── msg/
