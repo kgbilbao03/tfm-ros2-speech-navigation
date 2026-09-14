@@ -112,7 +112,7 @@ Orden recomendado de arranque, cada uno en su propia terminal:
 ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 
 # 2. Nav2 con el mapa ya guardado
-ros2 launch nav2_bringup bringup_launch.py use_sim_time:=true map:=$HOME/tfm_maps/casa_mapa.yaml
+ros2 launch nav2_bringup bringup_launch.py use_sim_time:=true map:=$HOME/tfm_ws/tfm_maps/casa_mapa.yaml
 
 # 3. RViz
 ros2 launch nav2_bringup rviz_launch.py
@@ -125,6 +125,11 @@ ros2 run hri_voice_nav dialogue_manager_node
 ros2 run hri_voice_nav voice_output_node
 ros2 run hri_voice_nav voice_input_node
 ```
+⚠️ Nota sobre la carpeta de mapas (`/tfm_maps`):
+
+Para agilizar el despliegue del proyecto sin necesidad de recalcular las rutas compartidas del paquete en ROS 2, la carpeta `tfm_maps/` (que contiene `casa_mapa.yaml` y `casa_mapa.pgm`) se adjunta en la raíz del workspace (`~/tfm_ws/tfm_maps/`).
+
+Asegúrate de pasar la ruta absoluta o relativa correcta (`map:=$HOME/tfm_ws/tfm_maps/casa_mapa.yaml`) al lanzar `nav2_bringup`.
 
 Una vez arrancados los cinco nodos, el sistema queda escuchando por el micrófono.
 
