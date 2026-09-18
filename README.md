@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/9366e536-d5ca-4394-ab93-3aa7f4360dbf
+
 # Sistema de Interacción Humano-Robot mediante Speech-to-Speech para Control Verbal de Navegación en Robots
 
 Trabajo Fin de Máster — Máster Universitario en Automatización e Informática Industrial, Universitat Politècnica de València (UPV).
