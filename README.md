@@ -22,7 +22,6 @@ Sistema de interacción por voz que permite controlar verbalmente la navegación
 - [Limitaciones conocidas](#limitaciones-conocidas)
 - [Trabajo futuro](#trabajo-futuro)
 - [Autor](#autor)
-- [Licencia](#licencia)
 
 ---
 
